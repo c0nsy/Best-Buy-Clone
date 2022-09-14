@@ -1,0 +1,232 @@
+/* Navbar Styling */
+.navbar{
+  background-color: blue;
+  display: flex;
+}
+.navbar-logo{
+  max-width: 150px;
+  margin-left: 200px;
+}
+.links{
+  display: flex;
+  margin-left: 500px;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+}
+.links li{
+  display: inline-block;
+  height: 100%;
+  padding: 35px;
+  margin-left: 50px;
+}
+.links li a{
+  text-decoration: none;
+  color: white;
+}
+.search-bar{
+  margin-top: 38px;
+}
+input{
+  float: right;
+  padding: 6px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+/* End of Navbar Styling */
+
+/* Start of DropDown Styling */
+a{
+  text-decoration: none;
+  color: white;
+}
+.dropdown{
+  /* border: 1px solid red; */
+  text-align: right;
+  background-color: #003da6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.dropdown li{
+  margin-right: 20px;
+}
+
+.dropdown ul{
+  list-style: none;
+}
+.dropdown-links{
+  display: flex;
+  height: 50px;
+  margin-left: 180px
+}
+.dropdown-sales-header{
+  display: flex;
+  position:relative;
+  max-width: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+.dropdown-brands-header{
+  color: black;
+  display: flex;
+  position:relative;
+  max-width: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+.dropdown-locations-header{
+  color: white;
+  display: flex;
+  position:relative;
+  max-width: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+.dropdown-about-header{
+  color: white;
+  display: flex;
+  position:relative;
+  max-width: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+.dropdown-locations{
+  display: none;
+  margin-right: 25px;
+  position: absolute;
+  margin-top: 25px;
+  background-color: #0069A6;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-sales{
+  display: none;
+  text-align: center;
+  position: absolute;
+  margin-top: 25px;
+  background-color: #0069A6;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown-brands{
+  display: none;
+  position: absolute;
+  background-color: #0069A6;
+  margin-top: 25px;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-about{
+  display: none;
+  position: absolute;
+  background-color: #0069A6;
+  margin-top: 25px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown-sales-header:hover .dropdown-sales{
+  display: block;
+  text-align: left;
+}
+.dropdown-sales-header li:hover{
+  background-color: rgb(151, 127, 127);
+}
+.dropdown-about-header li:hover{
+  background-color: rgb(151, 127, 127);
+}
+.dropdown-brands-header li:hover{
+  background-color: rgb(151, 127, 127);
+}
+.dropdown-locations-header li:hover{
+  background-color: rgb(151, 127, 127);
+}
+.dropdown-about-header:hover .dropdown-about{
+  display: block;
+  text-align: left;
+}
+.dropdown-brands-header:hover .dropdown-brands{
+  display: block;
+  text-align: left;
+}
+.dropdown-locations-header:hover .dropdown-locations{
+  display: block;
+  text-align: left;
+}
+/* END OF DROP DOWN STYLING */
+
+/* PRODUCT PREVIEW STYLING*/
+/* add a sample image thats very small and the title of the product */
+.product-preview{
+  border: 1px solid green
+}
+/* PRODUCT DETAIL STYLING */
+
+.product-title{
+  text-align: center;
+}
+.product-image{
+  max-width: 600px;
+}
+.product-container{
+  margin-left: 400px;
+  float: left;
+}
+.product-overview{
+  max-width: 400px;
+}
+.product-hr{
+  max-width: 1150px;
+}
+/* INTERACTIVE BUTTON THING WITHIN PRODUCT DETAIL */
+.product-interactive{
+  height: 500px;
+  max-width: 350px;
+  height: 400px;
+  margin-left: 1250px;
+}
+.button-container{
+  background-color: #f4f6f9;
+  border-radius: 5px;
+  height: 66%;
+  margin-top: 88px;
+  text-align: center;
+}
+/* figure out how to move the top button down */
+
+.button-container button{
+  display: inline-block;
+  margin:auto;
+  background-color: #ffce00;
+  width: 80%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+.button-container .add-checkout--button{
+  margin-top: 25px;
+}
+.button-container .pickup-instore--button{
+  margin-top: 10px;
+}
+.button-container button:hover{
+  background-color: #fff200;
+  cursor: pointer;
+}
+.product-price{
+  text-align: center;
+}
+/* END OF PRODUCT DETAIL STYLING  */

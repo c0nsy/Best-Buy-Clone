@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "title": "Lenovo IdeaPad 1 14' Laptop - Platinum (Intel Celeron N4020/64GB eMMC/4GB RAM/Windows 11 S)",
+            "image": "/src/assets/LaptopImages/LenovoLaptop1.png",
+            "overview": "The Lenovo IdeaPad 1 14 Laptop allows you to seamlessly shift between work and entertainment modes. Engineered by an Intel Celeron N4020 processor with 4GB RAM, this laptop offers unmatched performance and speed. Enjoy a crystal-clear sound experience while watching videos or listening to music with its Dolby Audio.",
+            "price": "$199.99",
+            "quantity": 5,
+            "id": 0
+        },
+        {
+            "title": "IdeaPad",
+            "overview": "The Lenovo IdeaPad 1 14 Laptop allows you to seamlessly shift between work and entertainment modes. Engineered by an Intel Celeron N4020 processor with 4GB RAM, this laptop offers unmatched performance and speed. Enjoy a crystal-clear sound experience while watching videos or listening to music with its Dolby Audio.",
+            "id": 1
+        },
+        {
+            "title": "IdeaPad",
+            "overview": "The Lenovo IdeaPad 1 14 Laptop allows you to seamlessly shift between work and entertainment modes. Engineered by an Intel Celeron N4020 processor with 4GB RAM, this laptop offers unmatched performance and speed. Enjoy a crystal-clear sound experience while watching videos or listening to music with its Dolby Audio.",
+            "id": 2
+        }
+    ]
+}
