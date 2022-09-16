@@ -169,7 +169,16 @@ a{
 /* PRODUCT PREVIEW STYLING*/
 /* add a sample image thats very small and the title of the product */
 .product-preview{
-  border: 1px solid green
+  border: 1px solid green;
+  width: 250px;
+  height: 400;
+}
+.product-preview img{
+  width: 250px;
+  max-height: 250px;
+}
+.preview-link{
+  border: 1px solid red;
 }
 /* PRODUCT DETAIL STYLING */
 
