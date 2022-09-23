@@ -3,15 +3,16 @@ import FeaturedLaptop from "./assets/featured-laptop.png"
 import FeaturedTV from "./assets/featured-tv.png"
 import FeaturedAppliances from "./assets/featured-appliances.png"
 import FeaturedPhones from "./assets/featured-phones.png"
-
-// comment
+import FeaturedGaming from "./assets/featured-gaming.png"
+import FeaturedAudio from "./assets/featured-audio.png"
+import FeaturedSmallAppliances from "./assets/featured-smallappliances.png"
+import FeaturedHealth from "./assets/featured-health.jpg"
 
 export default function Deals(){
     return(
         <div className="deals">
-            <h1>Top Deals</h1>
             <img src={DealsBanner} className="deals-banner"/>
-            <h3>Featured Top Deals</h3>
+            <h3 className="deals-text">Featured Top Deals</h3>
             {/* use grid system here to display all the deals */}
             <div className="featured-deals--wrapper">
                 <div className="deals-laptops">
@@ -38,10 +39,30 @@ export default function Deals(){
                     <p>When you finance a phone and activate a new 24-month plan with AutoPay. *T&C apply.</p>
                     <p>Shop now (add link in the future)</p>
                 </div>
-                <div className="deals-gaming"></div>
-                <div className="deals-audio"></div>
-                <div className="deals-small-appliances"></div>
-                <div className="deals-small-health"></div>
+                <div className="deals-gaming">
+                    <img src={FeaturedGaming} alt="" />
+                    <h4>With savings up to 40% off! You don't want to miss these deals.</h4>
+                    <p>Plus, with all xbox lines get 2 free games!</p>
+                    <p>Shop now (add link in the future)</p>
+                </div>
+                <div className="deals-audio">
+                    <img src={FeaturedAudio} alt="" />
+                    <h4>Get up to 25% off select products!</h4>
+                    <p>Big brands such as Sony, Panasonic, and many more!</p>
+                    <p>Shop now (add link in the future).</p>
+                </div>
+                <div className="deals-small-appliances">
+                    <img src={FeaturedSmallAppliances} alt="" />
+                    <h4>Specials on small aplliances for the month of October!</h4>
+                    <p>Financing deals on select appliances.</p>
+                    <p>Shope now (add link in future)</p>
+                </div>
+                <div className="deals-small-health">
+                    <img src={FeaturedHealth} alt="" />
+                    <h4>Start saving big on select home health products!</h4>
+                    <p>With products such as massage guns, massage chairs, and more!</p>
+                    <p>Shop now (add link in the future) </p>
+                </div>
             </div>
         </div>
     )

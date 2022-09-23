@@ -236,3 +236,25 @@ a{
   text-align: center;
 }
 /* END OF PRODUCT DETAIL STYLING  */
+
+/* DEALS STYLING START */
+
+.deals-banner{
+  margin-top: 50px;
+  margin-left: 325px;
+}
+
+.deals-text{
+  text-align: center;
+}
+
+.featured-deals--wrapper{
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(4,250px);
+}
+.featured-deals--wrapper img{
+  text-align: center;
+  max-width: 250px;
+  max-height: 130px;
+}
