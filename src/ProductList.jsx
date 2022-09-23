@@ -7,13 +7,13 @@ export default function ProductList({products,title}){
             {/* could maybe use filter by tag to filter out each product(?) */}
             {/* filters like, laptop, mice, desktop, laptop cases, etc */}
             {products.map((product) =>
-                <Link to = {`/products/${product.id}`} className="preview-link">
+                
                     <div className="product-preview" key={product.id}>
                         <h1>{product.title}</h1>
-                        <img src={product.image} alt="" />
+                        <Link to = {`/products/${product.id}`} className="preview-link">
+                            <img src={product.image} alt="" />
+                        </Link>
                     </div>
-                </Link>
-                
             )}
         </div>
     )
