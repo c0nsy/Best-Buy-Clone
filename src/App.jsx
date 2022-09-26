@@ -8,7 +8,7 @@ import Contact from "./Subpages/Contact"
 import Deals from './Deals'
 import Dell from "./Subpages/Dell"
 import DropDown from './DropDown'
-// import Footer from "./Footer"
+import Footer from "./Footer"
 import Home from './Home'
 import Hp from "./Subpages/Hp"
 import Lenovo from "./Subpages/Lenovo"
@@ -60,7 +60,7 @@ function App() {
             <Route path="products/:id" element={<ProductDetails />}/>
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
     

@@ -258,3 +258,13 @@ a{
   max-width: 250px;
   max-height: 130px;
 }
+/* END OF DEALS STYLING */
+
+/* FOOTER STYLING */
+.footer--wrapper{
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  /* grid-template-rows: repeat(1,100px); */
+}
