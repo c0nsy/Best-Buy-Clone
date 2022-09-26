@@ -260,6 +260,23 @@ a{
 }
 /* END OF DEALS STYLING */
 
+/* POPULAR DEALS STYLING */
+
+.popular-deals--wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,250px);
+  justify-content: space-evenly;
+}
+.popular-banner{
+  margin-top: 50px;
+  margin-left: 325px;
+}
+.popular-title{
+  text-align: center;
+  /* margin-left: 250px; */
+}
+/* END OF POPULAR DEALS STYLING */
+
 /* ABOUT STYLING */
 .about-wrapper{
   margin: 50px 0px 100px 600px;
