@@ -4,7 +4,7 @@ export default function DropDown(){
         <div className="dropdown">
             <ul className="dropdown-links">
                 <li className="dropdown-sales-header">
-                    <Link to="/sales">Sales</Link>
+                    <Link to="/deals">Deals</Link>
                     <ul className="dropdown-sales">
                         <li>
                             <Link to="/popular">Popular</Link>

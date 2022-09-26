@@ -260,6 +260,15 @@ a{
 }
 /* END OF DEALS STYLING */
 
+/* ABOUT STYLING */
+.about-wrapper{
+  margin: 50px 0px 100px 600px;
+  max-width: 700px;
+}
+.about h1{
+  margin-left: 275px;
+}
+/* END OF ABOUT */
 /* FOOTER STYLING */
 .footer--wrapper{
   background-color: blue;
@@ -268,3 +277,4 @@ a{
   justify-content: space-evenly;
   /* grid-template-rows: repeat(1,100px); */
 }
+/* END OF FOOTER */
